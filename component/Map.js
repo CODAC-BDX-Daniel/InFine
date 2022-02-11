@@ -18,7 +18,7 @@ const EventDetailsInfo = () => {
     const [selected, setSelected] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
     const {isLoaded, loadError} = useLoadScript({
-        googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+        googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY,
         libraries,
     });
 
