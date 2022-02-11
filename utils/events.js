@@ -1,0 +1,93 @@
+export const eventsExample = [
+  {
+    datasetid: "met_agenda",
+    recordid: "d58f06732f987399be8bb446a606137e108e390e",
+    fields: {
+      origin_slug: "ville-de-gradignan",
+      location_department: "Gironde",
+      location_postalcode: "33170",
+      location_region: "Nouvelle-Aquitaine",
+      uid: "43900938",
+      location_countrycode: "fr",
+      location_district: "Laurenzane",
+      origin_uid: "35828405",
+      location_city: "Gradignan",
+      location_uid: "16458859",
+      lastdate: "2022-10-11",
+      keywords_fr: "Livre;Lecture;Salon;Gradignan;Lire en poche",
+      location_name: "Gradignan et autres lieux",
+      origin_oaurl: "https://openagenda.com/agendas/35828405",
+      firstdate: "2022-10-08",
+      location_insee: "33192",
+      slug: "lire-en-poche-edition-speciale-un-tout-petit-format-pour-2020",
+      updatedat: "2020-10-05T09:19:05+00:00",
+      location_coordinates: [44.773838, -0.614076],
+      longdescription_fr: "**La version courte de la longue description",
+      title_fr:
+        "Lire en Poche, édition spéciale : un tout petit format pour 2020",
+      origin_url: "https://www.gradignan.fr/",
+      range_fr: "8 - 11 octobre",
+      conditions_fr: "Entrée et animations gratuites.",
+      location_address: "place Bernard Roumégoux, 33170 Gradignan",
+      location_country_fr: "France (Métropole)",
+
+      description_fr:
+        'Du 8 au 11 octobre 2020, Lire en Poche s\'adapte et revient pour une édition 2020 " tout petit format" sur-mesure à Gradignan et dans la Métropole de Bordeaux.',
+      origin_title: "Ville de Gradignan",
+      location_website: "https://www.gradignan.fr/",
+    },
+    geometry: {
+      type: "Point",
+      coordinates: [-0.614076, 44.773838],
+    },
+  },
+  {
+    datasetid: "met_agenda",
+    recordid: "6d4a345fd3f24f09b8befe269ffd651e4b8e4be7",
+    fields: {
+      origin_slug: "rocher-de-palmer",
+      location_department: "Gironde",
+      location_postalcode: "33150",
+      location_region: "Nouvelle-Aquitaine",
+      uid: "15671517",
+      location_countrycode: "fr",
+      registrationurl:
+        "https://lerocherdepalmer.fr/artistes/mostafa.el.harfi/10.2020.php",
+      origin_uid: "94573624",
+      location_city: "Cenon",
+      location_uid: "18191842",
+      lastdate: "2022-10-04",
+      keywords_fr:
+        "rocher de palmer;cenon;bordeaux;concert;musique;mostafa el harfi et l’ensemble ibn al khatib d’oujda;musiques du monde",
+      location_name: "Rocher de Palmer",
+      location_phone: "00 33 5 56 74 80 00",
+      origin_oaurl: "https://openagenda.com/agendas/94573624",
+      firstdate: "2022-10-04",
+      location_insee: "33119",
+      slug: "mostafa-el-harfi-et-lensemble-ibn-al-khatib-doujda",
+      updatedat: "2020-10-01T14:42:46+00:00",
+      location_coordinates: [44.862735, -0.524859],
+      longdescription_fr:
+        "D'Oujda à Bordeaux, la musique gharnati a trouvé son chemin jusqu’à nous, portée par ses instruments emblématiques - oud, violon, mandole, percussions - traversant les frontières chargée d’émotion. Les musiciens de l'ensemble marocain Ibn Al Khatib entourant Mostafa El Harfi puisent leur inspiration à la source des airs ancestraux et des plus beaux textes de la poésie arabo-andalouse. Ambassadeurs passionnés de cette musique nomade originaire de Grenade, ils la ravivent en lui donnant un tout nouvel écho.",
+      title_fr: "Mostafa El Harfi et l’ensemble Ibn Al Khatib d’Oujda",
+      origin_url: "https://lerocherdepalmer.fr/",
+      range_fr: "Dimanche 4 octobre, 17h00",
+      conditions_fr: "Tarif unique : 10€ / Pass J'n'W : 10€",
+      location_address: "1 rue Aristide Briand Cenon",
+      location_image: "https://cibul.s3.amazonaws.com/location18191842.jpg",
+      location_country_fr: "France (Métropole)",
+      html_fr:
+        "<p>D'Oujda à Bordeaux, la musique gharnati a trouvé son chemin jusqu’à nous, portée par ses instruments emblématiques - oud, violon, mandole, percussions - traversant les frontières chargée d’émotion. Les musiciens de l'ensemble marocain Ibn Al Khatib entourant Mostafa El Harfi puisent leur inspiration à la source des airs ancestraux et des plus beaux textes de la poésie arabo-andalouse. Ambassadeurs passionnés de cette musique nomade originaire de Grenade, ils la ravivent en lui donnant un tout nouvel écho.</p>",
+      description_fr:
+        "Mostafa El Harfi nous entraîne sur le territoire des musiques arabo-andalouses, au son voluptueux de son oud et des noubas.",
+      origin_title: "Rocher de Palmer",
+      location_description_fr:
+        "Le Rocher de Palmer c'est 6700 m2 dédiés aux cultures du monde sous la direction artistique de Musiques de Nuit à Cenon près de Bordeaux.",
+      location_website: "https://lerocherdepalmer.fr",
+    },
+    geometry: {
+      type: "Point",
+      coordinates: [-0.524859, 44.862735],
+    },
+  },
+];
